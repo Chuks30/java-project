@@ -22,6 +22,7 @@ public class ComparisonTest {
 
     @Test
     void addThreeIntegers(){
+        Comparison comparison = new Comparison();
         //when
        int sum = comparison.addThreeIntegers(2, 3, 5);
         //verify
